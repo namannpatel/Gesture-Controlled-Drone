@@ -1,0 +1,17 @@
+# Virtual environments
+venv/
+gesture-env/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large TensorFlow/JAX libs
+*.so
+*.dylib
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
