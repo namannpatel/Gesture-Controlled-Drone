@@ -1,0 +1,17 @@
+# Core scientific stack (compatible with TensorFlow 2.13.0)
+numpy==1.24.3
+pandas==2.2.0
+
+# Machine learning
+tensorflow-macos==2.13.0
+tensorflow-metal==1.1.0
+scikit-learn==1.4.2
+
+# Gesture detection
+mediapipe==0.10.14
+opencv-python==4.9.0.80
+
+# Maya + utilities
+absl-py==2.1.0
+protobuf==4.25.3
+sounddevice==0.5.3
