@@ -1,21 +1,19 @@
-# Python
+# Virtual environments
+venv/
+gesture-env/
+gesture-train-env/
+
+# Python cache
 __pycache__/
 *.pyc
 
-# Virtual env
-venv/
-
-# OS files
-.DS_Store
-
-# Training data
-*.csv
-*.zip
-data/
-dataset/
-logs/
-
-# Models
+# Large binary files
+*.so
+*.dylib
 *.tflite
-*.h5
+*.onnx
 *.pb
+*.h5
+
+# Site-packages (from accidental commits)
+**/site-packages/
